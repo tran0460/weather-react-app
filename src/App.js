@@ -1,5 +1,5 @@
-// import logo from './logo.svg';
 import './App.css';
+import React from 'react'
 
 const api = {
   key: 'beeff04c2d7634dde414fdaace9bca74',
@@ -9,7 +9,15 @@ const api = {
 function App() {
   return (
     <div className="App">
-      Hello!
+      <main>
+        <div class = "search-box">
+          <input 
+          type = "text"
+          className="search-bar"
+          placeholder = "Search..."
+          />
+        </div>
+      </main>
     </div>
   );
 }
